@@ -4,8 +4,7 @@ const BMIData = [
     { name: "Surpoids, avez-vous pensé voir une diététicienne et faire une activité physique ?", color: "lightcoral", range: [25, 30] },
     { name: "Obésité modérée, avez-vous pensé voir une diététicienne et faire une activité physique ?", color: "orange", range: [30, 35] },
     { name: "Obésité sévère, avez-vous pensé voir une diététicienne et faire une activité physique ?", color: "crimson", range: [35, 40] },
-    { name: "Obésité morbide, avez-vous pensé voir une diététicienne et faire une activité physique ? L'obésité est devenue la première cause de mortalité dans le monde !", color: "purple", range: 40 },
-  ];
+    { name: "Obésité morbide, avez-vous pensé voir une diététicienne et/ou un psychologue/psychiatre ? L'obésité est devenue la première cause de mortalité dans le monde !", color: "purple", range: 40 },
 
   // IMC = poids en kg / taille² en m
   
