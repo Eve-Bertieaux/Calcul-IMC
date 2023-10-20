@@ -2,9 +2,10 @@ const BMIData = [
     { name: "Maigreur, avez-vous pensé voir une diététicienne et/ou psychologue ? Être en bonne santé est tout aussi bien, non ?", color: "midnightblue", range: [0, 18] },
     { name: "Bonne santé, bravo continuez comme ça !", color: "green", range: [18.1, 25] },
     { name: "Surpoids, avez-vous pensé voir une diététicienne et faire une activité physique ?", color: "lightcoral", range: [25, 30] },
-    { name: "Obésité modérée, avez-vous pensé voir une diététicienne et faire une activité physique ?", color: "orange", range: [30, 35] },
-    { name: "Obésité sévère, avez-vous pensé voir une diététicienne et faire une activité physique ? Pensez à faire surveiller votre diabète de type 2", color: "crimson", range: [35, 40] },
+    { name: "Obésité modérée, avez-vous pensé voir une diététicienne et faire une activité physique ? Attention vous êtes peut-être pré-diabétique !", color: "orange", range: [30, 35] },
+    { name: "Obésité sévère, avez-vous pensé voir une diététicienne et faire une activité physique ? Pensez à faire surveiller votre diabète de type 2 ? L'obésité est devenue la première cause de mortalité dans le monde !", color: "crimson", range: [35, 40] },
     { name: "Obésité morbide, avez-vous pensé voir un psychologue/psychiatre ? L'obésité est devenue la première cause de mortalité dans le monde !", color: "purple", range: 40 },
+  ];
 
   // IMC = poids en kg / taille² en m
   
