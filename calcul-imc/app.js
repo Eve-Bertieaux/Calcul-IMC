@@ -40,7 +40,7 @@ const BMIData = [
   const result = document.querySelector(".result");
   
   function handleError() {
-    displayBMI.textContent = "Wops";
+    displayBMI.textContent = "Comme c'est dommage !";
     displayBMI.style.color = "inherit";
     result.textContent = "Remplissez correctement les inputs.";
   }
